@@ -13,14 +13,14 @@ public class ContaBancaria {
     private boolean ativa = true;
     private List<Transacao> transacoes = new ArrayList<>();
 
-    // Construtor da classe
+
     public ContaBancaria(Cliente cliente, String numeroConta, String numeroAgencia) {
         this.cliente = cliente;
         this.numeroConta = numeroConta;
         this.numeroAgencia = numeroAgencia;
     }
 
-    // Métodos getters e setters
+
     public Cliente getCliente() {
         return cliente;
     }
@@ -61,7 +61,7 @@ public class ContaBancaria {
         this.ativa = ativa;
     }
 
-    // Depositar valor
+
     void depositar(Double valor) {
         if (valor >= 0 && isAtiva()) {
             saldo = saldo + valor;
@@ -71,7 +71,7 @@ public class ContaBancaria {
 
     }
 
-    // Sacar valor da conta
+
     boolean sacar(Double valor) {
         if (valor >= 0 && isAtiva()) {
             saldo = saldo - valor;
@@ -85,12 +85,12 @@ public class ContaBancaria {
 
     }
 
-    // Consulta saldo
+
     Double consultarSaldo() {
         return saldo;
     }
 
-    // Cancelar o valor com uma justificativa
+
     void cancelarConta(String justificativa) {
         if (saldo == 0) {
             ativa = false;
@@ -103,7 +103,7 @@ public class ContaBancaria {
     }
 
 
-    // Transferir um valor de uma conta para outra
+
     void transferir(ContaBancaria contaDestino, Double valor) {
         if (valor >= saldo) {
             contaDestino.depositar(valor);
@@ -132,7 +132,7 @@ public class ContaBancaria {
 
 
 
-    // Refletir no extrato os lançamentos da conta
+
     void incluirTransacao(Double valor, String descricao, String tipo) {
         Transacao t = new Transacao();
 
