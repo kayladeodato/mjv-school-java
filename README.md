@@ -1,4 +1,4 @@
-# MJV SCHOOL JAVA
+# 🦉🎓 MJV SCHOOL JAVA
 Repositório dedicado a toda abordagem e conteúdo durante a trajetória do curso de Java disponbilizado pela MJV School. 
 
 ## MJV School Java
@@ -19,38 +19,38 @@ Site   [https://www.mjvinnovation.com/](https://www.mjvinnovation.com/)
 
 Linkedin [https://www.linkedin.com/company/mjv-tech-and-innovation/](https://www.linkedin.com/company/mjv-tech-and-innovation/)
 
-### Instrutor
+## 🧑🏽‍🏫 Instrutor
 
 * [Gleyson Sampaio](./#instrutor)
 * [Repositório do Instrutor](https://github.com/glysns/mjv-java-school)
 
-### Tecnologias abordadas
+## 🛠️ Tecnologias abordadas
 
-🛠️ - [X] Java JDK 8;
+- [X] Java JDK 8;
 
-🛠️ - [X] IntelliJ Idea Community;
+- [X] IntelliJ Idea Community;
 
-🛠️ - [ ] UML;
+- [ ] UML;
 
-🛠️ - [ ] Maven;
+- [ ] Maven;
 
-🛠️ - [ ] Spring Boot;
+- [ ] Spring Boot;
 
-🛠️ - [ ] JBDC;
+- [ ] JBDC;
 
-🛠️ - [ ] Banco de dados;
+- [ ] Banco de dados;
 
-🛠️ - [ ] Swagger;
+- [ ] Swagger;
 
-🛠️ - [ ] Junit;
+- [ ] Junit;
 
-### Conteúdo Programático
+## 📖 Conteúdo Programático
 
 <table><thead><tr><th width="117">Semana</th><th width="151.33333333333331">Abordagem</th><th>Conteúdo</th></tr></thead><tbody><tr><td>1ª</td><td>Inicial</td><td>Abertura da turma, distribuição dos grupos, Configruação do ambiente de desenvolvimento, abordagem do projeto final, Sintaxe e Semântica, Algoritmos e Linguagem, Fundamentos da linguagem Java;</td></tr><tr><td>2ª</td><td>Fundamentos e Básico</td><td>Palavras reservadas, Wrappers, Tipos, Operadores, Controle de fluxo, Introdução Orientação à Objetos, Classes essenciais, Java Time, Java N-IO;</td></tr><tr><td>3ª</td><td></td><td></td></tr><tr><td>4ª</td><td></td><td></td></tr><tr><td>5ª</td><td></td><td></td></tr></tbody></table>
 
-### Exercícios resolvidos
+## 👩‍💻 Exercícios resolvidos
 
 <table><thead><tr><th width="146">Semana</th><th>Exercício</th></tr></thead><tbody><tr><td>1ª</td><td>Prática de Git e Github - </td></tr><tr><td>2ª</td><td>Classes, visibilidade, Java Bean - <br>Lógica e Serialização - </td></tr><tr><td>3ª</td><td></td></tr><tr><td>4ª</td><td></td></tr><tr><td>5ª</td><td></td></tr></tbody></table>
 
-### Projeto Final
+## 💻 Projeto Final
 
