@@ -26,23 +26,23 @@ Linkedin [https://www.linkedin.com/company/mjv-tech-and-innovation/](https://www
 
 ### Tecnologias abordadas
 
-🛠️ [X] Java JDK 8;
+🛠️ - [X] Java JDK 8;
 
-🛠️ [X] IntelliJ Idea Community;
+🛠️ - [X] IntelliJ Idea Community;
 
-🛠️ [ ] UML;
+🛠️ - [ ] UML;
 
-🛠️ [ ] Maven;
+🛠️ - [ ] Maven;
 
-🛠️ [ ] Spring Boot;
+🛠️ - [ ] Spring Boot;
 
-🛠️ [ ] JBDC;
+🛠️ - [ ] JBDC;
 
-🛠️ [ ] Banco de dados;
+🛠️ - [ ] Banco de dados;
 
-🛠️ [ ] Swagger;
+🛠️ - [ ] Swagger;
 
-🛠️ [ ] Junit;
+🛠️ - [ ] Junit;
 
 ### Conteúdo Programático
 
