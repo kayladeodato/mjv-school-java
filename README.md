@@ -1,8 +1,4 @@
----
-description: >-
-  Repositório dedicado para a prática e abordagem durante todo o curso de Java
-  da MJV Scool.
----
+
 
 # MJV SCHOOL JAVA
 
@@ -14,6 +10,7 @@ description: >-
 
 ### Instrutor
 
+### Tecnologias abordadas
 
 
 ### Conteúdo Programático
