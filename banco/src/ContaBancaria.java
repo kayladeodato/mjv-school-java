@@ -118,7 +118,7 @@ public class ContaBancaria {
         List<Transacao> lancamentos = new ArrayList<>();
         for (Transacao transacao : transacoes) {
             if (transacao.getData().isAfter(dataFim) && transacao.getData().isBefore(dataFim)) {
-                lancamentos.add(transacao);
+                System.out.println(transacao);
             }
         }
 

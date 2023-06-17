@@ -29,6 +29,8 @@ public class Terminal {
 
         conta1.consultarExtratoPoPeriodo(LocalDate.of(2023, 06, 01), LocalDate.of(2023,06,17));
 
+        conta1.sacar(70.00);
+
         conta1.cancelarConta("Troca de banco");
         System.out.println(conta1.isAtiva());
 
