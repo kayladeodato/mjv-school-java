@@ -1,4 +1,5 @@
 # Prática de Git e Github
+Repositório usado para guardar os principais comandos git que foram utilizados para configurar o ambiente, assim como a criação e interação do repositório do projeto final do grupo.
 
 ## Principais comandos Git:
 
