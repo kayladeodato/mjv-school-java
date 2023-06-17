@@ -8,27 +8,27 @@ O cliente poderá realizar operações como saque, depósito, transferência de 
 
 O exercício pede que contenha os seguintes atributos:
 
-Número da conta;
+* [x] Número da conta;
 
-✅ Número da agência;
+* [x] Número da agência;
 
-✅ Nome do Cliente;
+* [x] Nome do Cliente;
 
-✅ Data de Nascimento;
+* [x] Data de Nascimento;
 
-✅ Saldo da Conta;
+* [x] Saldo da Conta;
 
 E os seguites métodos:
 
-✅ Sacar um valor;
+* [x] Sacar um valor;
 
-✅ Transferir um valor para outra conta;
+* [x] Transferir um valor para outra conta;
 
-✅ Cancelar a conta com uma justificativa;
+* [x] Cancelar a conta com uma justificativa;
 
-✅ Consultar o extrato entre duas datas;
+* [x] Consultar o extrato entre duas datas;
 
-✅ Consultar o saldo atual;
+* [x] Consultar o saldo atual;
 
 ### 🛠️ Tecnologias utilizadas
 
