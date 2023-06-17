@@ -73,14 +73,16 @@ Estabelece uma conexão entre o repositótio local e o remoto.
 ```
 $ git remote add <nomecurto> <url>
 ```
+
 ### 9. git push
 
 Usado para enviar as alterações para um repositório remoto que foi conectado com o git remote.
 
 ```
 $ git push -u <nome_curto> <nome_do_branch>
- 
-```### 10. git fetch
+```
+
+### 10. git fetch
 
 Com esse comando você irá receber todas as informações de commits para avaliar, antes de aplicar as alterações que você fez em sua versão local do repositório.
 
@@ -88,7 +90,7 @@ Com esse comando você irá receber todas as informações de commits para avali
 $ git fetch
 ```
 
-```### 11. git pull
+### 11. git pull
 
 Atualiza o nosso repositório local com os dados no repositório remoto.
 
@@ -96,7 +98,7 @@ Atualiza o nosso repositório local com os dados no repositório remoto.
 $ git pull <URL>
 ```
 
-```### 12. git stash
+### 12. git stash
 
 Pode guardar um trabalho temporariamente em uma área chamada stash para retomá-lo posteriormente.
 
@@ -106,7 +108,7 @@ $ git stash list // listas seus stashs
 $ git stash apply // momento de aplicar o conteúdo do stash a uma branch
 ```
 
-```### 13. git merge
+### 13. git merge
 
 O merge junta os trabalhos de duas branches diferentes em uma única. Portanto precisa ser iniciado a patir de uma branch já selecionada, que será mesclado com outra, com o nome passado por parâmetro.
 
@@ -114,7 +116,7 @@ O merge junta os trabalhos de duas branches diferentes em uma única. Portanto p
 $ git merge <nome_do_branch>
 ```
 
-```### 14. git rebase
+### 14. git rebase
 
 Traz os commits de uma branch para outra.
 
@@ -122,7 +124,7 @@ Traz os commits de uma branch para outra.
 $ git rebase <base>
 ```
 
-```### 15. git pull -rebase
+### 15. git pull -rebase
 
 Nessa instrução, o Git irá fazer um rebase (não um merge) depois de se utilizar um comando pull.
 
@@ -130,7 +132,7 @@ Nessa instrução, o Git irá fazer um rebase (não um merge) depois de se utili
 $ git pull –rebase
 ```
 
-```### 16. git diff
+### 16. git diff
 
 Para comparar dois arquivos gits ou dois branches antes de passarem por um commit ou um push, é importante executar esse comando Git.
 
@@ -139,7 +141,7 @@ $ git diff HEAD <nome_do_arquivo> // Compara o repositório ativo com o reposit�
 $ git diff <branch de origem> <branch de destino> // Compara duas ramificações
 ```
 
-```### 17. git status
+### 17. git status
 
 Analisa o estado do nosso repositório.
 
@@ -147,7 +149,7 @@ Analisa o estado do nosso repositório.
 $ git status
 ```
 
-```### 18. git log
+### 18. git log
 
 Verifica o histórico de commits.
 
