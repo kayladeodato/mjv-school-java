@@ -1,19 +1,18 @@
-package banco;
-
 import java.time.LocalDate;
 
 public class Transacao {
-
     LocalDate data;
     String descricao;
     Double valor;
     String tipo; //enum
 
     public LocalDate getData() {
+
         return data;
     }
 
     public void setData(LocalDate data) {
+
         this.data = data;
     }
 

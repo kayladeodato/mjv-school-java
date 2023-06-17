@@ -1,5 +1,3 @@
-package banco;
-
 import java.time.LocalDate;
 
 public class Cliente {

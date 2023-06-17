@@ -1,11 +1,8 @@
-package banco;
-
 import java.time.LocalDate;
 import java.util.ArrayList;
 import java.util.List;
 
 public class ContaBancaria {
-
     private Cliente cliente;
     private Double saldo = 0.0;
     private String numeroConta;
@@ -22,30 +19,37 @@ public class ContaBancaria {
 
 
     public Cliente getCliente() {
+
         return cliente;
     }
 
     public Double getSaldo() {
+
         return saldo;
     }
 
     public String getNumeroConta() {
+
         return numeroConta;
     }
 
     public String getNumeroAgencia() {
+
         return numeroAgencia;
     }
 
     public boolean isAtiva() {
+
         return ativa;
     }
 
     public List<Transacao> getTransacoes() {
+
         return transacoes;
     }
 
     public void setCliente(Cliente cliente) {
+
         this.cliente = cliente;
     }
 
@@ -67,13 +71,11 @@ public class ContaBancaria {
             saldo = saldo + valor;
             incluirTransacao(valor, "Depósito em Conta", "DEPÓSITO");
         }
-        return;
 
     }
 
-
     boolean sacar(Double valor) {
-        if (valor >= 0 && isAtiva()) {
+        if (valor >= 0 && isAtiva() && valor <= saldo) {
             saldo = saldo - valor;
             incluirTransacao(valor, "Saque da conta", "SAQUE");
             return true;
@@ -85,7 +87,6 @@ public class ContaBancaria {
 
     }
 
-
     Double consultarSaldo() {
         return saldo;
     }
@@ -94,44 +95,35 @@ public class ContaBancaria {
     void cancelarConta(String justificativa) {
         if (saldo == 0) {
             ativa = false;
-            incluirTransacao(0.00, "Conta cancelada", "CANCELAMENTO");
+            incluirTransacao(0.00, "Conta cancelada. Motivo" + justificativa, "CANCELAMENTO");
         }
         else {
             System.out.println("Não foi possível realizar o cancelamento, consulte o seu gerente.");
-            incluirTransacao(saldo, "Conta possui saldo", "FALHA CANCELAMENTO");
+            incluirTransacao(saldo, "Erro ao cancelar a conta", "FALHA CANCELAMENTO");
         }
     }
 
 
-
     void transferir(ContaBancaria contaDestino, Double valor) {
-        if (valor >= saldo) {
+        if (valor <= saldo) {
             contaDestino.depositar(valor);
             this.sacar(valor);
         }
 
-        incluirTransacao(valor, "Transferência de valor", "TRANSFERÊNCIA");
+        incluirTransacao(valor, "Transferência para conta" + contaDestino.getNumeroConta(), "TRANSFERÊNCIA");
+        contaDestino.incluirTransacao(valor, "Recebimento de transferência da conta" + this.numeroConta, "TRANSFERÊNCIA");
     }
 
-    void consultarExtrato() {
+    List<Transacao> consultarExtratoPoPeriodo(LocalDate dataInicio, LocalDate dataFim) {
+        List<Transacao> lancamentos = new ArrayList<>();
         for (Transacao transacao : transacoes) {
-            transacao.toString();
+            if (transacao.getData().isAfter(dataFim) && transacao.getData().isBefore(dataFim)) {
+                lancamentos.add(transacao);
+            }
         }
+
+        return lancamentos;
     }
-
-    // Consultar extrato entre duas datas
-    /*Transacao consultarExtrato(LocalDate dataInicio, LocalDate dataFim) {
-        int dia = 0;
-        if ()
-        }
-
-
-
-        }
-    }*/
-
-
-
 
     void incluirTransacao(Double valor, String descricao, String tipo) {
         Transacao t = new Transacao();
@@ -143,7 +135,4 @@ public class ContaBancaria {
         transacoes.add(t);
 
     }
-
-
-
 }
