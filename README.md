@@ -1,4 +1,5 @@
-# 🦉🎓 MJV SCHOOL JAVA
+# MJV SCHOOL JAVA
+
 Repositório dedicado a toda abordagem e conteúdo durante a trajetória do curso de Java disponbilizado pela MJV School. Ao total são 5 semanas de duração (05/06/2023 à 10/07/2023) e abordagens dos temas: Java Fundamentos, Orientação a Objetos, Persistência de Dados, Spring Framework e Cases Práticos.
 
 ## MJV School Java
@@ -15,7 +16,7 @@ Os MJVers, como são conhecidos os profissionais que representam essa rede multi
 
 Em uma trajetória de transformação e operando ao lado de marcas líderes globais, a MJV já expandiu para 10 escritórios na Europa, América do Norte e região Latam, com atuação em mais de 25 países. #SejaMJVer
 
-Site   [https://www.mjvinnovation.com/](https://www.mjvinnovation.com/)
+Site [https://www.mjvinnovation.com/](https://www.mjvinnovation.com/)
 
 Linkedin [https://www.linkedin.com/company/mjv-tech-and-innovation/](https://www.linkedin.com/company/mjv-tech-and-innovation/)
 
@@ -26,23 +27,15 @@ Linkedin [https://www.linkedin.com/company/mjv-tech-and-innovation/](https://www
 
 ## 🛠️ Tecnologias abordadas
 
-- [X] Java JDK 8;
-
-- [X] IntelliJ Idea Community;
-
-- [ ] UML;
-
-- [ ] Maven;
-
-- [ ] Spring Boot;
-
-- [ ] JBDC;
-
-- [ ] Banco de dados;
-
-- [ ] Swagger;
-
-- [ ] Junit;
+* [x] Java JDK 8;
+* [x] IntelliJ Idea Community;
+* [ ] UML;
+* [ ] Maven;
+* [ ] Spring Boot;
+* [ ] JBDC;
+* [ ] Banco de dados;
+* [ ] Swagger;
+* [ ] Junit;
 
 ## 📖 Conteúdo Programático
 
@@ -50,7 +43,6 @@ Linkedin [https://www.linkedin.com/company/mjv-tech-and-innovation/](https://www
 
 ## 👩‍💻 Exercícios resolvidos
 
-<table><thead><tr><th width="146">Semana</th><th>Exercício</th></tr></thead><tbody><tr><td>1ª</td><td>Prática de Git e Github - </td></tr><tr><td>2ª</td><td>Classes, visibilidade, Java Bean - <br>Lógica e Serialização - </td></tr><tr><td>3ª</td><td></td></tr><tr><td>4ª</td><td></td></tr><tr><td>5ª</td><td></td></tr></tbody></table>
+<table><thead><tr><th width="138.63005780346822">Semana</th><th>Exercício</th></tr></thead><tbody><tr><td>1ª</td><td>Prática de Git e Github - <a href="https://github.com/kayladeodato/mjv-school-java/tree/main/git">Acessar</a></td></tr><tr><td>2ª</td><td>Conta Bancária - <a href="https://github.com/kayladeodato/mjv-school-java/tree/main/banco">Acessar</a><br>Lógica e Serialização -</td></tr><tr><td>3ª</td><td></td></tr><tr><td>4ª</td><td></td></tr><tr><td>5ª</td><td></td></tr></tbody></table>
 
 ## 💻 Projeto Final
-
