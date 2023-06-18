@@ -1,4 +1,4 @@
-# 💰 Jobby - Ao seu dispor
+# 💼 Jobby - Ao seu dispor 👔
 
 O projeto consiste no desenvolvimento de uma uma plataforma destinada ao armazenamento de dados pessoais e profissionais para em seguida proporcionar uma listagem de profissionais, suas experiências e habilidades destinadas para auxilar no processo de recrutamento e seleção de uma empresa de tecnologia.
 
@@ -14,18 +14,20 @@ Consiste na elaboração de um programa simples onde é possível receber as inf
 
 Como forma de estruturar o projeto de tornar fácil a visualização para o desenvolvimento, segue o diagrama UML:
 
+![image](https://github.com/kayladeodato/mjv-school-java/assets/13575694/c82c0a9c-1456-4f9a-ae0c-507e7026335d)
+
 
 ### 🛠️ Tecnologias utilizadas
 
 * IntelliJ Idea;
 * Java;
+* UML;
 
 
 ### 📌 Funcionalidades
 
 * [x] O projeto foi indicado a não usar o método toString() e usar a classe utilitária Scanner.
 
-###
 
 ### 💻Demonstração da Aplicação
 
