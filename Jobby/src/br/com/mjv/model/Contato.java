@@ -6,6 +6,9 @@ public class Contato {
     private Long celular;
     private boolean celWhatsapp;
 
+    public Contato() {
+    }
+
     public String getEmail() {
         return email;
     }

@@ -9,6 +9,9 @@ public class Endereco {
     private String cidade;
     private String estado;
 
+    public Endereco() {
+    }
+
     public String getLogradouro() {
         return logradouro;
     }

@@ -5,6 +5,12 @@ public class Cadastro {
     private Candidato candidato;
     private Profissao profissao;
 
+    public Cadastro(Integer id, Candidato candidato, Profissao profissao) {
+        this.id = id;
+        this.candidato = candidato;
+        this.profissao = profissao;
+    }
+
     public Cadastro(Integer id) {
         this.id = id;
     }

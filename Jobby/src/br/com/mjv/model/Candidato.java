@@ -8,8 +8,8 @@ public class Candidato {
     private String cpf;
     private LocalDate dataNascimento;
     private Sexo sexo;
-    private Endereco endereco;
-    private Contato contato;
+    private Endereco endereco = new Endereco();
+    private Contato contato = new Contato();
 
     public String getNome() {
         return nome;
