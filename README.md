@@ -1,4 +1,4 @@
-# MJV SCHOOL JAVA
+# 🦉🎓 MJV SCHOOL JAVA
 
 Repositório dedicado a toda abordagem e conteúdo durante a trajetória do curso de Java disponbilizado pela MJV School. Ao total são 5 semanas de duração (05/06/2023 à 10/07/2023) e abordagens dos temas: Java Fundamentos, Orientação a Objetos, Persistência de Dados, Spring Framework e Cases Práticos.
 
