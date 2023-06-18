@@ -43,6 +43,6 @@ Linkedin [https://www.linkedin.com/company/mjv-tech-and-innovation/](https://www
 
 ## 👩‍💻 Exercícios resolvidos
 
-<table><thead><tr><th width="138.63005780346822">Semana</th><th>Exercício</th></tr></thead><tbody><tr><td>1ª</td><td>Prática de Git e Github - <a href="https://github.com/kayladeodato/mjv-school-java/tree/main/git">Acessar</a></td></tr><tr><td>2ª</td><td>Conta Bancária - <a href="https://github.com/kayladeodato/mjv-school-java/tree/main/banco">Acessar</a><br>Lógica e Serialização -</td></tr><tr><td>3ª</td><td></td></tr><tr><td>4ª</td><td></td></tr><tr><td>5ª</td><td></td></tr></tbody></table>
+<table><thead><tr><th width="138.63005780346822">Semana</th><th>Exercício</th></tr></thead><tbody><tr><td>1ª</td><td>Prática de Git e Github - <a href="https://github.com/kayladeodato/mjv-school-java/tree/main/git">Acessar</a></td></tr><tr><td>2ª</td><td>Conta Bancária - <a href="https://github.com/kayladeodato/mjv-school-java/tree/main/banco">Acessar</a><br>Jobby (Cadastro e geração de arquivo) - <a href="https://github.com/kayladeodato/mjv-school-java/tree/main/Jobby">Acessar</a><br></td></tr><tr><td>3ª</td><td></td></tr><tr><td>4ª</td><td></td></tr><tr><td>5ª</td><td></td></tr></tbody></table>
 
 ## 💻 Projeto Final
