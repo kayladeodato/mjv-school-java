@@ -35,7 +35,7 @@ Como forma de estruturar o projeto de tornar fácil a visualização para o dese
 
 ### ✍️ Assimilação do conteúdo
 
-Ao realizar esse exercício foi possível assimilar a criação e uso de classes, manipulação de arquivos através da classe utilitária Java IO, StringBuilder, LocalDate e Listas.
+Ao realizar esse exercício foi possível assimilar a criação e uso de classes, manipulação de arquivos através da classe utilitária Java IO e NIO, StringBuilder, LocalDate e Listas.
 
 
 
