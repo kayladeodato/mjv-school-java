@@ -30,7 +30,7 @@ Linkedin [https://www.linkedin.com/company/mjv-tech-and-innovation/](https://www
 * [x] Java JDK 8;
 * [x] IntelliJ Idea Community;
 * [ ] UML;
-* [ ] Maven;
+* [x] Maven;
 * [ ] Spring Boot;
 * [ ] JBDC;
 * [ ] Banco de dados;

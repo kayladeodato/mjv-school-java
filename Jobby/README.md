@@ -31,11 +31,12 @@ Como forma de estruturar o projeto de tornar fácil a visualização para o dese
 
 ### 💻Demonstração da Aplicação
 
+![image](https://github.com/kayladeodato/mjv-school-java/assets/13575694/0853fef5-20a8-4ae9-94f2-3a8522cff685)
 
 
 ### ✍️ Assimilação do conteúdo
 
-Ao realizar esse exercício foi possível assimilar a criação e uso de classes, manipulação de arquivos através da classe utilitária Java IO, StringBuilder, LocalDate e Listas.
+Ao realizar esse exercício foi possível assimilar a criação e uso de classes, manipulação de arquivos através da classe utilitária Java IO e NIO, StringBuilder, LocalDate e Listas.
 
 
 
