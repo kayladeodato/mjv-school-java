@@ -1,7 +1,5 @@
 ### IntelliJ IDEA ###
 out/production/banco
-### !**/src/main/**/out/
-### !**/src/test/**/out/
 
 *.exe
 bin/
