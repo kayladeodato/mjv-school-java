@@ -3,17 +3,12 @@ package br.com.mjv;
 import br.com.mjv.model.*;
 import br.com.mjv.util.ConfigurarLayout;
 
-import java.nio.file.Path;
-import java.nio.file.Paths;
 import java.time.LocalDate;
-import java.util.ArrayList;
 import java.util.List;
 
 public class Aplicacao {
 
     public static void main(String[] args) {
-
-        List<Cadastro> cadastros = new ArrayList<>();
 
         Cadastro cadastro01 = new Cadastro(1, new Candidato(),new Profissao());
         cadastro01.getCandidato().setNome("Maria dos Santos");
@@ -38,8 +33,6 @@ public class Aplicacao {
         cadastro01.getProfissao().setPretensaoSalarialMax(8000.00);
         cadastro01.getProfissao().setHabilidades(List.of("Cotação de produtos", "Descontos com fornecedor"));
 
-        cadastros.add(cadastro01);
-
         Cadastro cadastro02 = new Cadastro(2, new Candidato(),new Profissao());
         cadastro02.getCandidato().setNome("José da Silva");
         cadastro02.getCandidato().setCpf("013.555.013-33");
@@ -62,10 +55,6 @@ public class Aplicacao {
         cadastro02.getProfissao().setPretensaoSalarialMin(8500.00);
         cadastro02.getProfissao().setPretensaoSalarialMax(11000.00);
         cadastro02.getProfissao().setHabilidades(List.of("Levantamento de indicadores da área", "Alto desempenho de vendas"));
-
-        cadastros.add(cadastro02);
-
-
 
         ConfigurarLayout configuracao = new ConfigurarLayout();
         configuracao.gravarCabecalho();

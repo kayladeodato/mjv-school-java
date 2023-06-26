@@ -12,39 +12,37 @@ import java.nio.file.StandardOpenOption;
 public class ConfigurarLayout {
 
     Path arquivoDestino = Paths.get("C:\\Projetos\\mjv-school-java\\Jobby\\lista-contatos.csv");
-
     public void gravarCabecalho() {
         StringBuilder informacoesCadastro = new StringBuilder();
 
-        informacoesCadastro.append("ID;");
-        informacoesCadastro.append("NOME;");
-        informacoesCadastro.append("CPF;");
-        informacoesCadastro.append("DATA NASCIMENTO;");
-        informacoesCadastro.append("SEXO;");
-        informacoesCadastro.append("EMAIL;");
-        informacoesCadastro.append("TELEFONE;");
-        informacoesCadastro.append("CELULAR;");
-        informacoesCadastro.append("CELULAR WHATSAPP?;");
-        informacoesCadastro.append("LOGRADOURO;");
-        informacoesCadastro.append("NUMERO;");
-        informacoesCadastro.append("COMPLEMENTO;");
-        informacoesCadastro.append("BAIRRO;");
-        informacoesCadastro.append("CIDADE;");
-        informacoesCadastro.append("ESTADO;");
-        informacoesCadastro.append("CARGO;");
-        informacoesCadastro.append("SALARIO;");
-        informacoesCadastro.append("EMPREGO ATUAL?;");
-        informacoesCadastro.append("VINCULO EMPREGATICIO;");
-        informacoesCadastro.append("PRETENSAO SALRIAL MINIMA;");
-        informacoesCadastro.append("PRETENSAO SALRIAL MAXIMA;");
-        informacoesCadastro.append("HABILIDADES;").append("\n");
+        informacoesCadastro.append("ID ;");
+        informacoesCadastro.append("NOME ;");
+        informacoesCadastro.append("CPF ;");
+        informacoesCadastro.append("DATA NASCIMENTO ;");
+        informacoesCadastro.append("SEXO ;");
+        informacoesCadastro.append("EMAIL ;");
+        informacoesCadastro.append("TELEFONE ;");
+        informacoesCadastro.append("CELULAR ;");
+        informacoesCadastro.append("CELULAR WHATSAPP? ;");
+        informacoesCadastro.append("LOGRADOURO ;");
+        informacoesCadastro.append("NUMERO ;");
+        informacoesCadastro.append("COMPLEMENTO ;");
+        informacoesCadastro.append("BAIRRO ;");
+        informacoesCadastro.append("CIDADE ;");
+        informacoesCadastro.append("ESTADO ;");
+        informacoesCadastro.append("CARGO ;");
+        informacoesCadastro.append("SALARIO ;");
+        informacoesCadastro.append("EMPREGO ATUAL? ;");
+        informacoesCadastro.append("VINCULO EMPREGATICIO ;");
+        informacoesCadastro.append("PRETENSAO SALRIAL MINIMA ;");
+        informacoesCadastro.append("PRETENSAO SALRIAL MAXIMA ;");
+        informacoesCadastro.append("HABILIDADES ;").append("\n");
 
         try {
             Files.write(arquivoDestino, informacoesCadastro.toString().getBytes(StandardCharsets.UTF_8), StandardOpenOption.CREATE, StandardOpenOption.APPEND);
         } catch(IOException e) {
             e.printStackTrace();
         }
-
     }
 
     public void gravarInformacoesCsv (Cadastro cadastro) {
@@ -76,6 +74,7 @@ public class ConfigurarLayout {
         informacoesCadastro.append(cadastro.getProfissao().getPretensaoSalarialMax() + ";");
         informacoesCadastro.append(cadastro.getProfissao().getHabilidades() + "; \n");
 
+
         try {
             Files.write(arquivoDestino, informacoesCadastro.toString().getBytes(StandardCharsets.UTF_8), StandardOpenOption.CREATE, StandardOpenOption.APPEND);
         } catch(IOException e) {
@@ -83,5 +82,8 @@ public class ConfigurarLayout {
         }
 
     }
+
+
+
 
 }
