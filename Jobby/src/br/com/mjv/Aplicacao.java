@@ -57,7 +57,6 @@ public class Aplicacao {
         cadastro02.getProfissao().setHabilidades(List.of("Levantamento de indicadores da área", "Alto desempenho de vendas"));
 
         ConfigurarLayout configuracao = new ConfigurarLayout();
-        configuracao.gravarCabecalho();
         configuracao.gravarInformacoesCsv(cadastro01);
         configuracao.gravarInformacoesCsv(cadastro02);
 
